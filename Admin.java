@@ -72,7 +72,7 @@ public class Admin extends JFrame implements ActionListener
 			String pass1=tpass.getText();
 			
 			if(id1.equals("admin")&&pass1.equals("12345"))
-		 /*do{	
+		 do{	
 		    String s1 = tid.getText();
                     String reg="^[a-zA-z0-9_@]";
                     Scanner sc = new Scanner(s1);
@@ -113,7 +113,7 @@ public class Admin extends JFrame implements ActionListener
        		}while(ok==1); 
 
 		if(ok==1)		
-	 	{*/
+	 	{
 			{	
 				new Login(" Signed In Administrator ");
 			}
