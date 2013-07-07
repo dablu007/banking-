@@ -1,6 +1,5 @@
 
 
-
 /*
 OPERATOR ID: operator
 PASSWORD:	12345
@@ -87,7 +86,7 @@ public class Operator extends JFrame implements ActionListener
 		{
 			
 			if(id1.equals("operator")&&id2.equals("12345"))
-		/*do{	
+		do{	
 		    String s1 = tid.getText();
                     String reg="^[a-zA-z0-9_@]";
                     Scanner sc = new Scanner(s1);
@@ -129,7 +128,7 @@ public class Operator extends JFrame implements ActionListener
 		    }
        		}while(ok==1); 
 
-		if(ok==1)*/
+		if(ok==1)
 			{	
 		new SignIn(" Signed In Operater"); 
 			}
