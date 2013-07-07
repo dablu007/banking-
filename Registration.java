@@ -1,5 +1,4 @@
 
-
 import java.io.Serializable;
 
 public class Registration implements Serializable {
@@ -23,18 +22,18 @@ public class Registration implements Serializable {
                 super();
 		this.name = name;
 		this.dob = dob;
-	//	this.gender = gender;
+		this.gender = gender;
 		this.phoneno = phoneno;
 		this.address = address;
-	//	this.emailid = emailid;
+		this.emailid = emailid;
 		this.occupation = occupation;
 		this.identityproofno = identityproofno;
-	/*	this.idproof = idproof;
+		this.idproof = idproof;
 		this.accounttype = accounttype;
 		this.depositamount = depositamount;
 		this. facilitiesrequired =  facilitiesrequired;
 		this.accountno = accountno;
-	*/
+	
 	}
 
 	public Registration()
@@ -57,15 +56,14 @@ public class Registration implements Serializable {
 		return (dob);
 	}
 
-	
-/*	public void setgender(String gender) {
+	*	public void setgender(String gender) {
 		this.gender = gender;
 	}
 
 	public String getgender() {
 		return (gender);
 	}
-*/
+
 	public void setphoneno(String phoneno) {
 		this.phoneno = phoneno;
 	}
@@ -81,14 +79,14 @@ public class Registration implements Serializable {
 		return (address);
 	}
 
-/*	public void setemailid(String emailid) {
+	public void setemailid(String emailid) {
 		this.emailid = emailid;
 	}
 
 	public String getemailid() {
 		return (emailid);
 	}
-*/
+
 	public void setoccupation(String  occupation) {
 		this. occupation =  occupation;
 	}
@@ -97,15 +95,14 @@ public class Registration implements Serializable {
 	public String getoccupation() {
 		return  (occupation);
 	}
-
-/*	public void setidproof(String idproof) {
+*	public void setidproof(String idproof) {
 		this.idproof = idproof;
 	}
 
 	public String getidproof() {
 		return (idproof);
 	}
-*/
+
 	public void setidentityproofno(String identityproofno) {
 		this.identityproofno = identityproofno;
 	}
@@ -114,7 +111,7 @@ public class Registration implements Serializable {
 		return (identityproofno);
 	}
 
-/*	public void setaccounttype(String accounttype) {
+	public void setaccounttype(String accounttype) {
 		this.accounttype = accounttype;
 	}
 
@@ -146,6 +143,6 @@ public class Registration implements Serializable {
 		return (accountno);
 	}
 
-*/	
+	
 
 	}
