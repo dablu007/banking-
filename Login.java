@@ -1,5 +1,4 @@
 
-
 import java.awt.Color;
 import java.io.*;
 import java.util.*;
@@ -39,7 +38,7 @@ public class Login extends JFrame implements ActionListener
 		
 		Font f3=new Font("Bookman Old Style",Font.ITALIC,20);
 		bcustinfo.setFont(f3);
-/*
+
 		btransinfo=new JButton("Customer Transaction Information");
 		btransinfo.addActionListener(this);
 
@@ -58,11 +57,11 @@ public class Login extends JFrame implements ActionListener
 
 		
 		bdrftreq.setFont(f3);		
-*/
+
 		c.add(new JLabel(""));
 		c.add(new JLabel(""));c.add(new JLabel(""));c.add(new JLabel(""));
 		c.add(bcustinfo);
-/*		c.add(new JLabel(""));
+		c.add(new JLabel(""));
 		c.add(new JLabel(""));c.add(new JLabel(""));c.add(new JLabel(""));
 		c.add(btransinfo);c.add(new JLabel(""));
 		
@@ -71,7 +70,7 @@ public class Login extends JFrame implements ActionListener
 		c.add(bdrftreq);c.add(new JLabel(""));
 		
 		c.add(new JLabel(""));
-*/
+
 		setSize(800, 400);
 		setLocation(300,200);
 		setResizable(false);
@@ -85,7 +84,7 @@ public class Login extends JFrame implements ActionListener
 		{
 			new AccountInfo();
 		}
-/*		if(ae.getSource()==btransinfo)
+		if(ae.getSource()==btransinfo)
 		{
 			new CustTransInfo();
 		}
@@ -94,11 +93,10 @@ public class Login extends JFrame implements ActionListener
 			new AdminCheque();
 		}
 
-		if(ae.getSource()==bdrftreq)
-		{
+		if(ae.getSource()==bdrftreq)		{
 			new AdminDraft();
 		}
-*/
+
 
 	}
 		
